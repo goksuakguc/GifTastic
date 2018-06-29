@@ -1,0 +1,39 @@
+
+.btn{
+	margin-right: 5px !important;
+	margin-bottom: 5px !important;
+
+}
+
+button.btn.btn-warning{
+	background-color: firebrick;
+	border-color: antiquewhite;
+}
+
+#gif-appear {
+	text-align: center;
+	margin: 15px auto 5px;
+}
+.wrap {
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+}
+
+.container h1{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	width: 200px;
+	height: 150px;
+}
+
+body{
+
+	background-color: blue !important;
+
+
+}

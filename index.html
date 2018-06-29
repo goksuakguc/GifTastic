@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+ 
+    button{
+  margin-left: ($spacer-x * .25) !important;
+}
+  </style>
+
+	<title>Giffy Tube</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet"> 
+</head>-
+<body>
+	<div class="container">
+	    <h1>Gifs of favorites TV Shows / Movies</h1>
+	    <br>
+		<div id="series-buttons"></div>
+		<br><br>
+
+		<form id="form">
+			<label for="movie-input">Please enter your favorite TV Show / Movies</label>
+			<input class="form-control" type="text" placeholder="Search here and watch the magic begin!" id="gif-input">
+			<br>
+			<button type="button" class="btn btn-success" id="add-gif">Search</button>
+		</form>
+		<!-- images appear -->
+
+		<div id="gif-appear"></div>
+
+	<!-- 	<div id="gif-appear"></div> -->
+
+		
+	</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/gif.js"></script>
+</body>
+</html>
